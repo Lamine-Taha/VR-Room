@@ -14,7 +14,7 @@ public class Clock : MonoBehaviour
     {
         // Get current system time
         DateTime currentTime = DateTime.Now;
-        Debug.Log(currentTime.ToString());
+        //Debug.Log(currentTime.ToString());
 
         // Extract hour, minute, and second
         int hours = currentTime.Hour;
